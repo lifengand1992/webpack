@@ -1,0 +1,25 @@
+{
+  "name": "webpack_basic",
+  "version": "1.0.0",
+  "description": "basic demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifengand1992/webpack_basic.git"
+  },
+  "author": "lea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifengand1992/webpack_basic/issues"
+  },
+  "homepage": "https://github.com/lifengand1992/webpack_basic#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
